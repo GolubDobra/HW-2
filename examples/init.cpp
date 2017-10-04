@@ -1,5 +1,15 @@
+#include <iostream>
 #include "stack.hpp"
 
-int main() {
-	stack_init();
+using namespace std;
+
+void stackInit() 
+{
+	Stack<int> arrayInt;
+	cout << "!arrayInt created!" << endl;
+}
+
+int main() 
+{
+	stackInit();
 }
