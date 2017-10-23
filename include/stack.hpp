@@ -54,7 +54,8 @@ public:
     }
     bool empty() const 
     {
-        if(count() == 0) return true;
+        if(count() == 0) 
+		return true;
         return false;
     }
     
