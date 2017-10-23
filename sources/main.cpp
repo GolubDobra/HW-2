@@ -42,18 +42,18 @@ int main()
 		cout << endl;
 
     		cout << "!Элементы стека типа Char с добавленной памятью!" << endl;
-		Stack<char> Stack_char_OW(5); 
+		Stack<char> Stack_char(5); 
    
-    		Stack_char_OW.push('e');
-		Stack_char_OW.push('d');
-		Stack_char_OW.push('c');
-		Stack_char_OW.push('b');
-		Stack_char_OW.push('a');
+    		Stack_char.push('e');
+		Stack_char.push('d');
+		Stack_char.push('c');
+		Stack_char.push('b');
+		Stack_char.push('a');
 
     
     		for(int i = 0; i < 11; i++) 
 		{
-			cout << Stack_char_OW.pop();
+			cout << Stack_char.pop();
 		}
 		cout << endl;
 
